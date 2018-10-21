@@ -1,0 +1,25 @@
+{
+  "name": "projectal",
+  "version": "1.0.0",
+  "description": "My final project",
+  "main": "index.js",
+  "scripts": {
+  	"sass": "node-sass styles/index.scss -o build/styles",
+    "min": "minify -o build/styles/result.min.css build/styles/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "AlinaKryzhniova"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "minifier": "^0.8.1",
+    "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "flickity": "^2.1.2",
+    "jquery": "^3.3.1",
+    "reset-css": "^4.0.1"
+  }
+}
